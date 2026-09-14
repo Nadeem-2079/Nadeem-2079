@@ -88,16 +88,15 @@
 <!-- 5. GITHUB ANALYTICS -->
 ### 📊 GitHub Analytics
 
-<!-- Permanent Streak Card -->
+<!-- Header & Main Contribution Wave -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true&card_width=900" width="100%" alt="GitHub Streak" />
+  <img src="https://github-metrics-nadeem.vercel.app/api?template=classic&base=header,activity,community&isocalendar=1&isocalendar.duration=full-year&config.timezone=Asia%2FKolkata&config.base_color=%237aa2f7&raw=true" width="100%" alt="Contributions in the last year" onerror="this.onerror=null; this.src='https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true&card_width=900';" />
 </p>
 
-<!-- Fast Summary Row in Sairaj's Dark Navy Palette -->
+<!-- Row 1: Languages by Repo + Commits by Timezone (UTC +5:30) -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Contributions-Active_Builder-7aa2f7?style=for-the-badge&logo=github&labelColor=141724" alt="Contributions" />
-  <img src="https://img.shields.io/badge/Timezone-IST_(UTC_+5:30)-bb9af7?style=for-the-badge&logo=googlecalendar&labelColor=141724" alt="Timezone" />
-  <img src="https://img.shields.io/badge/Stack-Full--Stack_Mobile_%26_Web-7dcfff?style=for-the-badge&logo=react&labelColor=141724" alt="Stack" />
+  <img src="https://github-metrics-nadeem.vercel.app/api?template=classic&base=&languages=1&languages.sections=most-used&languages.indepth=1&config.timezone=Asia%2FKolkata&config.base_color=%237aa2f7&raw=true" width="49%" alt="Top Languages by Repo" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&bg_color=141724&title_color=7aa2f7&text_color=9aa5ce&hide_border=true';" />
+  <img src="https://github-metrics-nadeem.vercel.app/api?template=classic&base=&habits=1&habits.from=200&habits.charts=1&config.timezone=Asia%2FKolkata&config.base_color=%237aa2f7&raw=true" width="49%" alt="Commits (UTC +5.50)" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=Nadeem-2079&custom_title=Commits%20(UTC%20+5:30)&bg_color=141724&color=bb9af7&line=7aa2f7&point=b4f9f8&area=true&hide_border=true';" />
 </p>
 
 <br/>
@@ -106,7 +105,7 @@
 ### 🏆 GitHub Highlights
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repositories-Public_&_Open_Source-2ac3de?style=flat-square&logo=git&labelColor=141724" alt="Repos" />
-  <img src="https://img.shields.io/badge/Ecosystem-React_•_Next.js_•_Expo-7aa2f7?style=flat-square&logo=vercel&labelColor=141724" alt="Ecosystem" />
-  <img src="https://img.shields.io/badge/Design_Philosophy-Reliable_&_Scalable-bb9af7?style=flat-square&logo=dependabot&labelColor=141724" alt="Design" />
+  <img src="https://img.shields.io/badge/Developer-Mohammed_Nadeem_A-7aa2f7?style=for-the-badge&logo=github&labelColor=141724" alt="Name" />
+  <img src="https://img.shields.io/badge/Timezone-IST_(UTC_+5:30)-bb9af7?style=for-the-badge&logo=googlecalendar&labelColor=141724" alt="Timezone" />
+  <img src="https://img.shields.io/badge/Focus-Full--Stack_Platforms-7dcfff?style=for-the-badge&logo=react&labelColor=141724" alt="Focus" />
 </p>
