@@ -45,7 +45,7 @@
 
 <br/>
 
-<!-- 3. CONNECT WITH ME (Fixed badges & valid URLs) -->
+<!-- 3. CONNECT WITH ME -->
 ### 🔗 Connect With Me
 
 <p align="left">
@@ -65,7 +65,7 @@
 
 <br/>
 
-<!-- 4. TECH STACK (Reliable Devicon + Shields) -->
+<!-- 4. TECH STACK -->
 ### 🛠️ Tech Stack
 
 <p align="left">
@@ -85,23 +85,23 @@
 
 <br/>
 
-<!-- 5. GITHUB ANALYTICS (High-uptime stable endpoints) -->
+<!-- 5. GITHUB ANALYTICS -->
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Nadeem-2079&theme=tokyonight&hide_border=true" width="98%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
 </p>
 
 <br/>
 
-<!-- 6. TROPHIES (Fixed parameter query) -->
+<!-- 6. TROPHIES -->
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=tokyonight&no-frame=true&no-bg=true" alt="GitHub Trophies" />
 </p>
