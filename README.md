@@ -1,9 +1,11 @@
+<!-- 1. TOP WIDE BANNER -->
 <p align="center">
   <img src="./assets/Building%20Skills.png" width="100%" alt="Header Banner" />
 </p>
 
 <br/>
 
+<!-- 2. ABOUT ME SPLIT SECTION -->
 ### 📌 About Me
 
 <table>
@@ -41,52 +43,65 @@
   </tr>
 </table>
 
+<br/>
+
+<!-- 3. CONNECT WITH ME (Fixed badges & valid URLs) -->
 ### 🔗 Connect With Me
 
 <p align="left">
   <a href="https://linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://twitter.com" target="_blank">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="mailto:contact@nadeem.dev">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://github.com/Nadeem-2079" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
+<br/>
+
+<!-- 4. TECH STACK (Reliable Devicon + Shields) -->
 ### 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,html,css,react,nextjs,tailwind,nodejs,express,mongodb,postgres,git,github,vscode,figma&perline=10" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,js,nodejs,express,mongodb,postgres,python,flutter,git&perline=12" alt="Tech Stack Icons" />
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="Postgres" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" />
 </p>
 
+<br/>
+
+<!-- 5. GITHUB ANALYTICS (High-uptime stable endpoints) -->
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nadeem-2079&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=Nadeem-2079&theme=tokyonight&hide_border=true" width="98%" alt="GitHub Streak" />
 </p>
 
+<br/>
+
+<!-- 6. TROPHIES (Fixed parameter query) -->
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </p>
