@@ -3,17 +3,17 @@
   <img src="./assets/Building%20Skills.png" width="100%" alt="Header Banner" />
 </p>
 
-<!-- 2. STATIC CRISP SUB-HEADER (TALL TYPOGRAPHY) -->
-<h3 align="center" style="font-family: 'Bebas Neue', 'Oswald', 'Cinzel', -apple-system, sans-serif; letter-spacing: 3px; font-weight: 700; text-transform: uppercase;">
+<!-- 2. STATIC CRISP SUB-HEADER (TALL TYPOGRAPHY & FOUNDER TITLES) -->
+<h2 align="center" style="font-family: 'Bebas Neue', 'Oswald', 'Montserrat', sans-serif; letter-spacing: 3.5px; font-weight: 700; text-transform: uppercase;">
   <span style="color: #7aa2f7;">Full-Stack Developer</span> 
-  <span style="color: #414868; padding: 0 8px;">|</span> 
-  <span style="color: #bb9af7;">Next.js & React Native</span>
-</h3>
+  <span style="color: #414868; padding: 0 10px;">•</span> 
+  <span style="color: #bb9af7;">Founder</span>
+</h2>
 
-<p align="center">
-  <code style="color: #7dcfff; background: rgba(122, 162, 247, 0.08); padding: 4px 12px; border-radius: 4px; font-size: 13px; letter-spacing: 0.5px;">
-    Architecting Scalable Web Platforms • Engineering Reliable Distributed Systems
-  </code>
+<p align="center" style="margin-top: -6px;">
+  <span style="font-family: 'JetBrains Mono', 'Fira Code', monospace; color: #7dcfff; font-size: 13.5px; letter-spacing: 1px; font-weight: 500;">
+    Building Scalable Web Platforms & High-Performance Digital Products
+  </span>
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@
 ```json
 {
   "name": "Mohammed Nadeem A",
-  "role": "Full-Stack Developer",
+  "role": "Full-Stack Developer & Founder",
   "location": "Chennai, India",
   "building": [
     "Production Web Platforms",
@@ -165,10 +165,12 @@
 
 <br/>
 
-<!-- 9. PROFILE VIEWS VISITOR COUNTER -->
+<!-- 9. PROFILE VIEWS (PREMIUM TOKYO NIGHT PILL) -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nadeem-2079&label=PROFILE+VIEWS&style=flat-square&color=7aa2f7&labelColor=10141e" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Nadeem-2079&label=%E2%97%88%20PROFILE%20VIEWS&style=for-the-badge&color=7aa2f7&labelColor=10141e" alt="Profile Views" />
 </p>
+
+<br/>
 
 <!-- 10. FOOTER WAVE -->
 <p align="center">
