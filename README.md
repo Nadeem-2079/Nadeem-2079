@@ -3,11 +3,17 @@
   <img src="./assets/Building%20Skills.png" width="100%" alt="Header Banner" />
 </p>
 
-<!-- 2. DYNAMIC TYPING WAVE ANIMATION (JETBRAINS MONO FONT) -->
+<!-- 2. STATIC CRISP SUB-HEADER (TALL TYPOGRAPHY) -->
+<h3 align="center" style="font-family: 'Bebas Neue', 'Oswald', 'Cinzel', -apple-system, sans-serif; letter-spacing: 3px; font-weight: 700; text-transform: uppercase;">
+  <span style="color: #7aa2f7;">Full-Stack Developer</span> 
+  <span style="color: #414868; padding: 0 8px;">|</span> 
+  <span style="color: #bb9af7;">Next.js & React Native</span>
+</h3>
+
 <p align="center">
-  <a href="https://github.com/Nadeem-2079">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=false&width=620&lines=Full-Stack+Developer+%7C+Next.js+%26+React+Native;Architecting+Scalable+Web+Platforms;Engineering+Reliable+Distributed+Systems" alt="Typing SVG" />
-  </a>
+  <code style="color: #7dcfff; background: rgba(122, 162, 247, 0.08); padding: 4px 12px; border-radius: 4px; font-size: 13px; letter-spacing: 0.5px;">
+    Architecting Scalable Web Platforms • Engineering Reliable Distributed Systems
+  </code>
 </p>
 
 <p align="center">
@@ -159,7 +165,12 @@
 
 <br/>
 
-<!-- 9. FOOTER WAVE -->
+<!-- 9. PROFILE VIEWS VISITOR COUNTER -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Nadeem-2079&label=PROFILE+VIEWS&style=flat-square&color=7aa2f7&labelColor=10141e" alt="Profile Views" />
+</p>
+
+<!-- 10. FOOTER WAVE -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,100:1b2438&height=100&section=footer" width="100%" />
 </p>
