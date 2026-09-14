@@ -2,7 +2,7 @@ name: Generate Visitor Dot Grid
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Updates every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -17,35 +17,33 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch Count & Build Dot Matrix SVG
+      - name: Fetch Count & Build Widescreen Dot Matrix SVG
         run: |
-          # 1. Fetch current view count
           RAW_SVG=$(curl -s "https://komarev.com/ghpvc/?username=Nadeem-2079&style=flat")
           COUNT=$(echo "$RAW_SVG" | grep -oP '(?<=<text[^>]*>)[0-9]+(?=</text>)' | tail -n 1)
           if [ -z "$COUNT" ]; then COUNT=1; fi
 
-          # Calculate filled dots out of 100 (modulo 100 or progress towards next 100)
           FILLED=$(( COUNT % 100 ))
           if [ "$FILLED" -eq 0 ] && [ "$COUNT" -gt 0 ]; then FILLED=100; fi
 
-          # 2. Build 10x10 Matrix SVG
           cat << 'EOF' > generate_dots.py
           import sys
 
           count = int(sys.argv[1])
           filled = int(sys.argv[2])
 
-          width, height = 320, 160
-          cols, rows = 10, 10
-          spacing_x, spacing_y = 20, 12
+          width, height = 720, 130
+          cols, rows = 25, 4
+          spacing_x = 24
+          spacing_y = 16
           start_x = (width - ((cols - 1) * spacing_x)) / 2
-          start_y = 25
+          start_y = 30
 
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
             <style>
               .dot {{ transition: all 0.3s ease; }}
-              .count-text {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #7aa2f7; font-weight: 600; }}
-              .label-text {{ font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #719cd6; letter-spacing: 1.5px; }}
+              .count-text {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #7aa2f7; font-weight: 600; letter-spacing: 0.5px; }}
+              .label-text {{ font-family: 'JetBrains Mono', monospace; font-size: 10.5px; fill: #719cd6; letter-spacing: 1.8px; font-weight: 500; }}
             </style>
             <rect width="{width}" height="{height}" rx="10" fill="#10141e" stroke="#1f2335" stroke-width="1.5"/>
           '''
@@ -60,8 +58,8 @@ jobs:
                   dot_idx += 1
 
           svg += f'''
-            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 12}" text-anchor="middle" class="label-text">CURRENT BATCH MILESTONE ({filled}/100)</text>
-            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 26}" text-anchor="middle" class="count-text">TOTAL VIEWS: {count:,}</text>
+            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 16}" text-anchor="middle" class="label-text">CURRENT MILESTONE CYCLE • {filled}/100 DOTS FILLED</text>
+            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 32}" text-anchor="middle" class="count-text">TOTAL UNIQUE VIEWS: {count:,}</text>
           </svg>'''
 
           with open("profile-views-grid.svg", "w") as f:
@@ -75,5 +73,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-views-grid.svg
-          git commit -m "Update profile views dot matrix" || exit 0
+          git commit -m "Update widescreen profile views dot matrix" || exit 0
           git push
