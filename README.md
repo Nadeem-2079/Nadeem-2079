@@ -88,28 +88,25 @@
 <!-- 5. GITHUB ANALYTICS -->
 ### 📊 GitHub Analytics
 
-<!-- Top Contribution Activity Area Graph -->
+<!-- Permanent Streak Card -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nadeem-2079&custom_title=Contributions%20in%20the%20last%20year&bg_color=141724&color=7aa2f7&line=bb9af7&point=7dcfff&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+  <img src="https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true&card_width=900" width="100%" alt="GitHub Streak" />
 </p>
 
-<!-- Row 1: Languages by Repo + Commits by Timezone (UTC +5:30) -->
+<!-- Fast Summary Row in Sairaj's Dark Navy Palette -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&custom_title=Top%20Languages%20by%20Repo&bg_color=141724&title_color=7aa2f7&text_color=9aa5ce&hide_border=true" width="49%" alt="Top Languages by Repo" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nadeem-2079&custom_title=Commits%20(UTC%20+5:30)&bg_color=141724&color=bb9af7&line=7aa2f7&point=b4f9f8&area=true&hide_border=true" width="49%" alt="Commits Breakdown" />
-</p>
-
-<!-- Row 2: Stats Card + Language Breakdown by Commit -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nadeem-2079&show_icons=true&custom_title=Stats&bg_color=141724&title_color=7aa2f7&text_color=9aa5ce&icon_color=bb9af7&hide_border=true&include_all_commits=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&custom_title=Top%20Languages%20by%20Commit&bg_color=141724&title_color=7aa2f7&text_color=9aa5ce&hide_border=true" width="49%" alt="Top Languages by Commit" />
+  <img src="https://img.shields.io/badge/Contributions-Active_Builder-7aa2f7?style=for-the-badge&logo=github&labelColor=141724" alt="Contributions" />
+  <img src="https://img.shields.io/badge/Timezone-IST_(UTC_+5:30)-bb9af7?style=for-the-badge&logo=googlecalendar&labelColor=141724" alt="Timezone" />
+  <img src="https://img.shields.io/badge/Stack-Full--Stack_Mobile_%26_Web-7dcfff?style=for-the-badge&logo=react&labelColor=141724" alt="Stack" />
 </p>
 
 <br/>
 
 <!-- 6. GITHUB TROPHIES -->
-### 🏆 GitHub Trophies
+### 🏆 GitHub Highlights
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=6" width="100%" alt="GitHub Trophies" />
+  <img src="https://img.shields.io/badge/Repositories-Public_&_Open_Source-2ac3de?style=flat-square&logo=git&labelColor=141724" alt="Repos" />
+  <img src="https://img.shields.io/badge/Ecosystem-React_•_Next.js_•_Expo-7aa2f7?style=flat-square&logo=vercel&labelColor=141724" alt="Ecosystem" />
+  <img src="https://img.shields.io/badge/Design_Philosophy-Reliable_&_Scalable-bb9af7?style=flat-square&logo=dependabot&labelColor=141724" alt="Design" />
 </p>
