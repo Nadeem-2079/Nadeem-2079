@@ -1,9 +1,9 @@
-<!-- TOP BANNER -->
+<!-- 1. TOP WIDE BANNER -->
 <p align="center">
   <img src="./assets/Building%20Skills.png" width="100%" alt="Header Banner" />
 </p>
 
-<!-- DYNAMIC TYPING WAVE ANIMATION -->
+<!-- 2. DYNAMIC TYPING WAVE ANIMATION -->
 <p align="center">
   <a href="https://github.com/Nadeem-2079">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=false&width=600&lines=Full-Stack+Developer+%7C+Next.js+%26+React+Native;Architecting+Scalable+Web+Platforms;Engineering+Reliable+Distributed+Systems" alt="Typing SVG" />
@@ -16,7 +16,7 @@
 
 <br/>
 
-<!-- ABOUT ME SPLIT SECTION -->
+<!-- 3. ABOUT ME SPLIT SECTION -->
 ### 📌 About Me
 
 <table>
@@ -56,7 +56,7 @@
 
 <br/>
 
-<!-- CONNECT WITH ME (HOVER-READY GLOW PILLS) -->
+<!-- 4. CONNECT WITH ME -->
 ### 🔗 Connect With Me
 
 <p align="left">
@@ -76,7 +76,7 @@
 
 <br/>
 
-<!-- TECH STACK (DARK GLASSMORPHISM) -->
+<!-- 5. TECH STACK -->
 ### 🛠️ Tech Stack
 
 <p align="left">
@@ -96,42 +96,49 @@
 
 <br/>
 
-<!-- GITHUB ANALYTICS DASHBOARD -->
-### 📊 GitHub Analytics
+<!-- 6. GITHUB ANALYTICS (GLASSMORPHISM DASHBOARD) -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:10141e,50:181e2e,100:10141e&height=65&section=header&text=⚡%20ENGINEERING%20ANALYTICS%20&fontSize=22&fontColor=7aa2f7&fontAlignY=55&desc=Real-time%20Activity%20•%20Language%20Distribution%20•%20Cadence&descFontSize=12&descColor=94a3b8&descAlignY=82" width="100%" alt="Analytics Header" />
+</div>
 
-<!-- Top Profile Details -->
-<p align="center">
-  <img src="./profile-summary-card-output/2077/0-profile-details.svg" width="100%" alt="Profile Details" />
-</p>
+<br/>
 
-<!-- Row 1: Languages by Repo + Productive Time -->
-<p align="center">
-  <img src="./profile-summary-card-output/2077/1-repos-per-language.svg" width="49%" alt="Top Languages by Repo" />
-  <img src="./profile-summary-card-output/2077/4-productive-time.svg" width="49%" alt="Commits (UTC +5:30)" />
-</p>
+<table width="100%" style="border-collapse: separate; border-spacing: 12px; background: transparent;">
+  <tr>
+    <td colspan="2" align="center" style="background: #131722; border: 1px solid #232a3d; border-radius: 12px; padding: 14px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);">
+      <img src="./profile-summary-card-output/2077/0-profile-details.svg" width="98%" alt="Profile Details" style="border-radius: 8px;" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="middle" style="background: #131722; border: 1px solid #232a3d; border-radius: 12px; padding: 14px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);">
+      <img src="./profile-summary-card-output/2077/1-repos-per-language.svg" width="98%" alt="Top Languages by Repo" style="border-radius: 6px;" />
+    </td>
+    <td width="50%" align="center" valign="middle" style="background: #131722; border: 1px solid #232a3d; border-radius: 12px; padding: 14px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);">
+      <img src="./profile-summary-card-output/2077/4-productive-time.svg" width="98%" alt="Commits (UTC +5:30)" style="border-radius: 6px;" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="middle" style="background: #131722; border: 1px solid #232a3d; border-radius: 12px; padding: 14px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);">
+      <img src="./profile-summary-card-output/2077/3-stats.svg" width="98%" alt="GitHub Stats" style="border-radius: 6px;" />
+    </td>
+    <td width="50%" align="center" valign="middle" style="background: #131722; border: 1px solid #232a3d; border-radius: 12px; padding: 14px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);">
+      <img src="./profile-summary-card-output/2077/2-most-commit-language.svg" width="98%" alt="Top Languages by Commit" style="border-radius: 6px;" />
+    </td>
+  </tr>
+</table>
 
-<!-- Row 2: Stats + Languages by Commit -->
+<br/>
+
+<!-- METRICS HIGHLIGHT BAR -->
 <p align="center">
-  <img src="./profile-summary-card-output/2077/3-stats.svg" width="49%" alt="GitHub Stats" />
-  <img src="./profile-summary-card-output/2077/2-most-commit-language.svg" width="49%" alt="Top Languages by Commit" />
+  <img src="https://img.shields.io/badge/PRODUCTIVITY-PEAK_HOURS-7aa2f7?style=flat-square&labelColor=0f131a&color=1e293b" />
+  <img src="https://img.shields.io/badge/COMMIT_DISCIPLINE-CONTINUOUS-bb9af7?style=flat-square&labelColor=0f131a&color=1e293b" />
+  <img src="https://img.shields.io/badge/CODE_CADENCE-ACTIVE_CYCLE-7dcfff?style=flat-square&labelColor=0f131a&color=1e293b" />
 </p>
 
 <br/>
 
-<!-- ANIMATED SNAKE CONTRIBUTION GRAPH -->
-### 🐍 Contribution Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nadeem-2079/Nadeem-2079/output/github-contribution-grid-snake.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nadeem-2079/Nadeem-2079/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Nadeem-2079/Nadeem-2079/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</p>
-
-<br/>
-
-<!-- FOOTER BADGES -->
+<!-- 7. FOOTER WAVE -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,100:1b2438&height=100&section=footer" width="100%" />
 </p>
