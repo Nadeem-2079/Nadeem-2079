@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,100:1b2438&height=180&section=header&text=MOHAMMED%20NADEEM%20A&fontSize=40&fontColor=ffffff&fontAlignY=45&desc=Full-Stack%20Developer%20%7C%20Next.js%20%7C%20TypeScript%20%7C%20Mobile&descFontSize=16&descColor=94a3b8&descAlignY=70" width="100%" alt="Header Banner" />
+  <img src="./assets/Building%20Skills.png" width="100%" alt="Header Banner" />
 </p>
 
 <br/>
@@ -36,7 +36,7 @@
 
 </td>
     <td width="42%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Vibe Visual" style="border-radius: 6px;" />
+      <img src="./assets/Gif.jpg" width="100%" alt="Vibe Visual" style="border-radius: 6px;" />
     </td>
   </tr>
 </table>
@@ -82,7 +82,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Stats" />
 </p>
 
 ### 🏆 GitHub Trophies
