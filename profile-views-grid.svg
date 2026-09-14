@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="160" viewBox="0 0 320 160" fill="none">
+  <style>
+    .dot { transition: all 0.3s ease; }
+    .count-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #7aa2f7; font-weight: 600; }
+    .label-text { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #719cd6; letter-spacing: 1.5px; }
+  </style>
+  <rect width="320" height="160" rx="10" fill="#10141e" stroke="#1f2335" stroke-width="1.5"/>
+<circle cx="70.0" cy="25" r="3.5" fill="#7aa2f7" class="dot" />
+<circle cx="90.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="25" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="37" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="49" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="61" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="73" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="85" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="97" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="109" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="121" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="70.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="90.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="110.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="130.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="150.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="170.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="190.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="210.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="230.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+<circle cx="250.0" cy="133" r="3.5" fill="#1f2335" class="dot" />
+
+  <text x="160.0" y="157" text-anchor="middle" class="label-text">CURRENT BATCH MILESTONE (1/100)</text>
+  <text x="160.0" y="171" text-anchor="middle" class="count-text">TOTAL VIEWS: 1</text>
+</svg>
