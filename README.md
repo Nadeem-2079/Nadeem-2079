@@ -96,41 +96,17 @@
 
 <br/>
 
-<!-- 6. FEATURED PROJECTS -->
+<!-- 6. FEATURED PROJECTS (DYNAMIC REPO CARDS) -->
 ### 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🌐 Lendr</h3>
-      <p align="left">
-        A modern community rental marketplace platform designed to list, discover, and borrow equipment and tools locally with seamless booking workflows.
-      </p>
-      <p align="left">
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      </p>
-      <p align="left">
-        <a href="https://github.com/Nadeem-2079" target="_blank"><b>View Source →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">📱 Mnovate Solutions</h3>
-      <p align="left">
-        High-performance cross-platform software and internal business tools architected for inventory management, point-of-sale, and automated record workflows.
-      </p>
-      <p align="left">
-        <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      </p>
-      <p align="left">
-        <a href="https://github.com/Nadeem-2079" target="_blank"><b>View Source →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Nadeem-2079/Lendr" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nadeem-2079&repo=Lendr&theme=tokyonight&hide_border=true&bg_color=131722" width="49%" alt="Lendr Repository" />
+  </a>
+  <a href="https://github.com/Nadeem-2079/Nadeem-2079" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nadeem-2079&repo=Nadeem-2079&theme=tokyonight&hide_border=true&bg_color=131722" width="49%" alt="Featured Repository" />
+  </a>
+</p>
 
 <br/>
 
