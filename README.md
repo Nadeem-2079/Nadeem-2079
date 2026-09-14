@@ -1,11 +1,22 @@
-<!-- 1. TOP WIDE BANNER -->
+<!-- TOP BANNER -->
 <p align="center">
   <img src="./assets/Building%20Skills.png" width="100%" alt="Header Banner" />
 </p>
 
+<!-- DYNAMIC TYPING WAVE ANIMATION -->
+<p align="center">
+  <a href="https://github.com/Nadeem-2079">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=false&width=600&lines=Full-Stack+Developer+%7C+Next.js+%26+React+Native;Architecting+Scalable+Web+Platforms;Engineering+Reliable+Distributed+Systems" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2" />
+</p>
+
 <br/>
 
-<!-- 2. ABOUT ME SPLIT SECTION -->
+<!-- ABOUT ME SPLIT SECTION -->
 ### 📌 About Me
 
 <table>
@@ -34,29 +45,29 @@
 }
 ```
 
-> *"Simplicity is prerequisite for reliability."* — Edsger W. Dijkstra
+> *"Simplicity is prerequisite for reliability."* — **Edsger W. Dijkstra**
 
 </td>
     <td width="42%" align="center" valign="middle">
-      <img src="./assets/Gif.jpg" width="100%" alt="Vibe Visual" style="border-radius: 6px;" />
+      <img src="./assets/Gif.jpg" width="100%" alt="Visual" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- 3. CONNECT WITH ME -->
+<!-- CONNECT WITH ME (HOVER-READY GLOW PILLS) -->
 ### 🔗 Connect With Me
 
 <p align="left">
   <a href="https://linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://twitter.com" target="_blank">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
   <a href="mailto:contact@nadeem.dev">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://github.com/Nadeem-2079" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -65,35 +76,35 @@
 
 <br/>
 
-<!-- 4. TECH STACK -->
+<!-- TECH STACK (DARK GLASSMORPHISM) -->
 ### 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,js,nodejs,express,mongodb,postgres,python,flutter,git&perline=12" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,js,nodejs,express,mongodb,postgres,python,flutter,git&theme=dark&perline=12" alt="Tech Stack Icons" />
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="Postgres" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-10141e?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React_Native-10141e?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/TypeScript-10141e?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-10141e?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Node.js-10141e?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node" />
+  <img src="https://img.shields.io/badge/PostgreSQL-10141e?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="Postgres" />
+  <img src="https://img.shields.io/badge/MongoDB-10141e?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Vercel-10141e?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
 <br/>
 
-<!-- 5. GITHUB ANALYTICS -->
+<!-- GITHUB ANALYTICS DASHBOARD -->
 ### 📊 GitHub Analytics
 
-<!-- Top Profile Details Area Chart -->
+<!-- Top Profile Details -->
 <p align="center">
   <img src="./profile-summary-card-output/2077/0-profile-details.svg" width="100%" alt="Profile Details" />
 </p>
 
-<!-- Row 1: Languages by Repo + Productive Time Chart -->
+<!-- Row 1: Languages by Repo + Productive Time -->
 <p align="center">
   <img src="./profile-summary-card-output/2077/1-repos-per-language.svg" width="49%" alt="Top Languages by Repo" />
   <img src="./profile-summary-card-output/2077/4-productive-time.svg" width="49%" alt="Commits (UTC +5:30)" />
@@ -107,11 +118,20 @@
 
 <br/>
 
-<!-- 6. GITHUB TROPHIES -->
-### 🏆 Profile Highlights
+<!-- ANIMATED SNAKE CONTRIBUTION GRAPH -->
+### 🐍 Contribution Activity
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Developer-Mohammed_Nadeem_A-7aa2f7?style=for-the-badge&logo=github&labelColor=141724" alt="Name" />
-  <img src="https://img.shields.io/badge/Timezone-IST_(UTC_+5:30)-bb9af7?style=for-the-badge&logo=googlecalendar&labelColor=141724" alt="Timezone" />
-  <img src="https://img.shields.io/badge/Focus-Full--Stack_Platforms-7dcfff?style=for-the-badge&logo=react&labelColor=141724" alt="Focus" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nadeem-2079/Nadeem-2079/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nadeem-2079/Nadeem-2079/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Nadeem-2079/Nadeem-2079/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</p>
+
+<br/>
+
+<!-- FOOTER BADGES -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,100:1b2438&height=100&section=footer" width="100%" />
 </p>
