@@ -88,21 +88,27 @@
 <!-- 5. GITHUB ANALYTICS -->
 ### 📊 GitHub Analytics
 
-<!-- Header & Main Contribution Wave -->
+<!-- Top Profile Details Area Chart -->
 <p align="center">
-  <img src="https://github-metrics-nadeem.vercel.app/api?template=classic&base=header,activity,community&isocalendar=1&isocalendar.duration=full-year&config.timezone=Asia%2FKolkata&config.base_color=%237aa2f7&raw=true" width="100%" alt="Contributions in the last year" onerror="this.onerror=null; this.src='https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true&card_width=900';" />
+  <img src="./profile-summary-card-output/2077/0-profile-details.svg" width="100%" alt="Profile Details" />
 </p>
 
-<!-- Row 1: Languages by Repo + Commits by Timezone (UTC +5:30) -->
+<!-- Row 1: Languages by Repo + Productive Time Chart -->
 <p align="center">
-  <img src="https://github-metrics-nadeem.vercel.app/api?template=classic&base=&languages=1&languages.sections=most-used&languages.indepth=1&config.timezone=Asia%2FKolkata&config.base_color=%237aa2f7&raw=true" width="49%" alt="Top Languages by Repo" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&bg_color=141724&title_color=7aa2f7&text_color=9aa5ce&hide_border=true';" />
-  <img src="https://github-metrics-nadeem.vercel.app/api?template=classic&base=&habits=1&habits.from=200&habits.charts=1&config.timezone=Asia%2FKolkata&config.base_color=%237aa2f7&raw=true" width="49%" alt="Commits (UTC +5.50)" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=Nadeem-2079&custom_title=Commits%20(UTC%20+5:30)&bg_color=141724&color=bb9af7&line=7aa2f7&point=b4f9f8&area=true&hide_border=true';" />
+  <img src="./profile-summary-card-output/2077/1-repos-per-language.svg" width="49%" alt="Top Languages by Repo" />
+  <img src="./profile-summary-card-output/2077/4-productive-time.svg" width="49%" alt="Commits (UTC +5:30)" />
+</p>
+
+<!-- Row 2: Stats + Languages by Commit -->
+<p align="center">
+  <img src="./profile-summary-card-output/2077/3-stats.svg" width="49%" alt="GitHub Stats" />
+  <img src="./profile-summary-card-output/2077/2-most-commit-language.svg" width="49%" alt="Top Languages by Commit" />
 </p>
 
 <br/>
 
 <!-- 6. GITHUB TROPHIES -->
-### 🏆 GitHub Highlights
+### 🏆 Profile Highlights
 
 <p align="center">
   <img src="https://img.shields.io/badge/Developer-Mohammed_Nadeem_A-7aa2f7?style=for-the-badge&logo=github&labelColor=141724" alt="Name" />
