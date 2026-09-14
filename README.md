@@ -96,7 +96,45 @@
 
 <br/>
 
-<!-- 6. GITHUB ANALYTICS -->
+<!-- 6. FEATURED PROJECTS -->
+### 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">🌐 Lendr</h3>
+      <p align="left">
+        A modern community rental marketplace platform designed to list, discover, and borrow equipment and tools locally with seamless booking workflows.
+      </p>
+      <p align="left">
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+      </p>
+      <p align="left">
+        <a href="https://github.com/Nadeem-2079" target="_blank"><b>View Source →</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">📱 Mnovate Solutions</h3>
+      <p align="left">
+        High-performance cross-platform software and internal business tools architected for inventory management, point-of-sale, and automated record workflows.
+      </p>
+      <p align="left">
+        <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+      <p align="left">
+        <a href="https://github.com/Nadeem-2079" target="_blank"><b>View Source →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- 7. GITHUB ANALYTICS -->
 ### 📊 GitHub Analytics
 
 <!-- Top Profile Details -->
@@ -118,7 +156,7 @@
 
 <br/>
 
-<!-- 7. ANIMATED SNAKE CONTRIBUTION GRAPH -->
+<!-- 8. ANIMATED SNAKE CONTRIBUTION GRAPH -->
 ### 🐍 Contribution Activity
 
 <p align="center">
@@ -131,7 +169,7 @@
 
 <br/>
 
-<!-- 8. FOOTER WAVE -->
+<!-- 9. FOOTER WAVE -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,100:1b2438&height=100&section=footer" width="100%" />
 </p>
