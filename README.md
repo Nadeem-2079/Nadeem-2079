@@ -165,9 +165,9 @@
 
 <br/>
 
-<!-- 9. PROFILE VIEWS (PREMIUM TOKYO NIGHT PILL) -->
+<!-- 9. 100-DOT VISITOR MILESTONE MATRIX -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nadeem-2079&label=%E2%97%88%20PROFILE%20VIEWS&style=for-the-badge&color=7aa2f7&labelColor=10141e" alt="Profile Views" />
+  <img src="./profile-views-grid.svg" width="320" alt="Profile Views Dot Matrix" />
 </p>
 
 <br/>
