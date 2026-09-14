@@ -85,16 +85,18 @@
 
 <br/>
 
-<!-- 5. GITHUB ANALYTICS -->
+<!-- 5. GITHUB ANALYTICS DASHBOARD -->
 ### 📊 GitHub Analytics
 
+<!-- Streak & Commit Activity Banner -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&layout=donut&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true&card_width=900" width="100%" alt="GitHub Streak" />
 </p>
 
+<!-- Side-by-Side Overall Metrics + Language Breakdown -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Nadeem-2079&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nadeem-2079&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="49%" alt="Overall Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeem-2079&theme=tokyonight&hide_border=true&layout=compact&langs_count=6" width="49%" alt="Top Languages" />
 </p>
 
 <br/>
@@ -103,5 +105,5 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=tokyonight&no-frame=true&no-bg=true" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Nadeem-2079&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=7" width="100%" alt="GitHub Trophies" />
 </p>
