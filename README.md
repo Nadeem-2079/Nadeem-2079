@@ -96,17 +96,31 @@
 
 <br/>
 
-<!-- 6. FEATURED PROJECTS (DYNAMIC REPO CARDS) -->
+<!-- 6. FEATURED PROJECTS -->
 ### 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/Nadeem-2079/Lendr" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nadeem-2079&repo=Lendr&theme=tokyonight&hide_border=true&bg_color=131722" width="49%" alt="Lendr Repository" />
-  </a>
-  <a href="https://github.com/Nadeem-2079/Nadeem-2079" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nadeem-2079&repo=Nadeem-2079&theme=tokyonight&hide_border=true&bg_color=131722" width="49%" alt="Featured Repository" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Nadeem-2079" target="_blank">🌐 Lendr Platform</a></h4>
+      <p>Modern community rental marketplace platform designed to list, discover, and borrow tools locally with structured booking workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-10141e?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/TypeScript-10141e?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Tailwind-10141e?style=flat-square&logo=tailwindcss&logoColor=38B2AC" alt="Tailwind" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Nadeem-2079" target="_blank">📱 Mnovate Suite</a></h4>
+      <p>Cross-platform management software and digital tools engineered for automated business workflows and records management.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React_Native-10141e?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
+        <img src="https://img.shields.io/badge/Node.js-10141e?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node" />
+        <img src="https://img.shields.io/badge/PostgreSQL-10141e?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
