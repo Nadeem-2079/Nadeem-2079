@@ -165,9 +165,9 @@
 
 <br/>
 
-<!-- 9. 100-DOT VISITOR MILESTONE MATRIX (WIDESCREEN RECTANGLE) -->
+<!-- 9. GAMING LED DOT MATRIX VISITOR COUNTER -->
 <p align="center">
-  <img src="./profile-views-grid.svg" width="100%" alt="Profile Views Dot Matrix" />
+  <img src="./profile-views-grid.svg" width="460" alt="Gaming LED Dot Matrix Views" />
 </p>
 
 <br/>
