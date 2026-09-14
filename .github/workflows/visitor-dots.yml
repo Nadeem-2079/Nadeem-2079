@@ -1,0 +1,79 @@
+name: Generate Visitor Dot Grid
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Updates every 6 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-dots:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Count & Build Dot Matrix SVG
+        run: |
+          # 1. Fetch current view count
+          RAW_SVG=$(curl -s "https://komarev.com/ghpvc/?username=Nadeem-2079&style=flat")
+          COUNT=$(echo "$RAW_SVG" | grep -oP '(?<=<text[^>]*>)[0-9]+(?=</text>)' | tail -n 1)
+          if [ -z "$COUNT" ]; then COUNT=1; fi
+
+          # Calculate filled dots out of 100 (modulo 100 or progress towards next 100)
+          FILLED=$(( COUNT % 100 ))
+          if [ "$FILLED" -eq 0 ] && [ "$COUNT" -gt 0 ]; then FILLED=100; fi
+
+          # 2. Build 10x10 Matrix SVG
+          cat << 'EOF' > generate_dots.py
+          import sys
+
+          count = int(sys.argv[1])
+          filled = int(sys.argv[2])
+
+          width, height = 320, 160
+          cols, rows = 10, 10
+          spacing_x, spacing_y = 20, 12
+          start_x = (width - ((cols - 1) * spacing_x)) / 2
+          start_y = 25
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
+            <style>
+              .dot {{ transition: all 0.3s ease; }}
+              .count-text {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #7aa2f7; font-weight: 600; }}
+              .label-text {{ font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #719cd6; letter-spacing: 1.5px; }}
+            </style>
+            <rect width="{width}" height="{height}" rx="10" fill="#10141e" stroke="#1f2335" stroke-width="1.5"/>
+          '''
+
+          dot_idx = 1
+          for r in range(rows):
+              for c in range(cols):
+                  cx = start_x + (c * spacing_x)
+                  cy = start_y + (r * spacing_y)
+                  color = "#7aa2f7" if dot_idx <= filled else "#1f2335"
+                  svg += f'<circle cx="{cx}" cy="{cy}" r="3.5" fill="{color}" class="dot" />\n'
+                  dot_idx += 1
+
+          svg += f'''
+            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 12}" text-anchor="middle" class="label-text">CURRENT BATCH MILESTONE ({filled}/100)</text>
+            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 26}" text-anchor="middle" class="count-text">TOTAL VIEWS: {count:,}</text>
+          </svg>'''
+
+          with open("profile-views-grid.svg", "w") as f:
+              f.write(svg)
+          EOF
+
+          python3 generate_dots.py "$COUNT" "$FILLED"
+
+      - name: Commit Generated SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-views-grid.svg
+          git commit -m "Update profile views dot matrix" || exit 0
+          git push
