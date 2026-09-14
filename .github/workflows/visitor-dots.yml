@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch Count & Build Widescreen Dot Matrix SVG
+      - name: Fetch Count & Build Gaming LED Dot Matrix
         run: |
           RAW_SVG=$(curl -s "https://komarev.com/ghpvc/?username=Nadeem-2079&style=flat")
           COUNT=$(echo "$RAW_SVG" | grep -oP '(?<=<text[^>]*>)[0-9]+(?=</text>)' | tail -n 1)
@@ -32,20 +32,33 @@ jobs:
           count = int(sys.argv[1])
           filled = int(sys.argv[2])
 
-          width, height = 720, 130
+          width, height = 460, 92
           cols, rows = 25, 4
-          spacing_x = 24
-          spacing_y = 16
+          spacing_x = 14
+          spacing_y = 10
           start_x = (width - ((cols - 1) * spacing_x)) / 2
-          start_y = 30
+          start_y = 36
 
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
+            <defs>
+              <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="1.5" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
             <style>
-              .dot {{ transition: all 0.3s ease; }}
-              .count-text {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #7aa2f7; font-weight: 600; letter-spacing: 0.5px; }}
-              .label-text {{ font-family: 'JetBrains Mono', monospace; font-size: 10.5px; fill: #719cd6; letter-spacing: 1.8px; font-weight: 500; }}
+              .hud-title {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 8.5px; fill: #565f89; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; }}
+              .hud-val {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 9px; fill: #7aa2f7; font-weight: 700; letter-spacing: 1px; }}
             </style>
-            <rect width="{width}" height="{height}" rx="10" fill="#10141e" stroke="#1f2335" stroke-width="1.5"/>
+            <!-- Sleek Gaming Console Bezel -->
+            <rect width="{width}" height="{height}" rx="6" fill="#0d1117" stroke="#1f2430" stroke-width="1.2"/>
+            
+            <!-- HUD Top Bar -->
+            <text x="24" y="20" class="hud-title">SYSTEM // VISITOR_MATRIX</text>
+            <text x="{width - 24}" y="20" text-anchor="end" class="hud-val">{filled:02d} / 100 LVL</text>
           '''
 
           dot_idx = 1
@@ -53,13 +66,18 @@ jobs:
               for c in range(cols):
                   cx = start_x + (c * spacing_x)
                   cy = start_y + (r * spacing_y)
-                  color = "#7aa2f7" if dot_idx <= filled else "#1f2335"
-                  svg += f'<circle cx="{cx}" cy="{cy}" r="3.5" fill="{color}" class="dot" />\n'
+                  if dot_idx <= filled:
+                      # Lit LED pixel with glow
+                      svg += f'<circle cx="{cx}" cy="{cy}" r="2" fill="#7aa2f7" filter="url(#glow)"/>\n'
+                      svg += f'<circle cx="{cx}" cy="{cy}" r="1.3" fill="#c0caf5"/>\n'
+                  else:
+                      # Unlit gaming dot pixel
+                      svg += f'<circle cx="{cx}" cy="{cy}" r="1.6" fill="#161b26"/>\n'
                   dot_idx += 1
 
           svg += f'''
-            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 16}" text-anchor="middle" class="label-text">CURRENT MILESTONE CYCLE • {filled}/100 DOTS FILLED</text>
-            <text x="{width/2}" y="{start_y + (rows * spacing_y) + 32}" text-anchor="middle" class="count-text">TOTAL UNIQUE VIEWS: {count:,}</text>
+            <!-- HUD Bottom Status -->
+            <text x="{width / 2}" y="{height - 10}" text-anchor="middle" class="hud-title">EXP POINTS: <tspan fill="#bb9af7">{count:,}</tspan> TOTAL VIEWS</text>
           </svg>'''
 
           with open("profile-views-grid.svg", "w") as f:
@@ -73,5 +91,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-views-grid.svg
-          git commit -m "Update widescreen profile views dot matrix" || exit 0
+          git commit -m "Update micro gaming dot matrix" || exit 0
           git push
