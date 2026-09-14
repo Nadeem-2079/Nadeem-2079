@@ -165,9 +165,9 @@
 
 <br/>
 
-<!-- 9. 100-DOT VISITOR MILESTONE MATRIX -->
+<!-- 9. 100-DOT VISITOR MILESTONE MATRIX (WIDESCREEN RECTANGLE) -->
 <p align="center">
-  <img src="./profile-views-grid.svg" width="320" alt="Profile Views Dot Matrix" />
+  <img src="./profile-views-grid.svg" width="100%" alt="Profile Views Dot Matrix" />
 </p>
 
 <br/>
